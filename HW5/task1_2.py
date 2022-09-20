@@ -3,7 +3,7 @@ from random import randint as rd
 # b) Подумайте как наделить бота ""интеллектом""
 
 def candy_game_with_bot_ai():
-    candies = 200
+    candies = 201
     player_1 = 0
     bot = 0
     winner = 0

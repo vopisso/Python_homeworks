@@ -8,7 +8,7 @@ from random import randint as rd
 # чтобы забрать все конфеты у своего конкурента?
 
 def candy_game():
-    candies = 50
+    candies = 201
     player_1 = 0
     player_2 = 0
     winner = 0

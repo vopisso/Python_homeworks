@@ -3,7 +3,7 @@ from random import randint as rd
 # a) Добавьте игру против бота
 
 def candy_game_with_bot():
-    candies = 50
+    candies = 201
     player_1 = 0
     bot = 0
     winner = 0
