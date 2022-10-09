@@ -16,13 +16,13 @@ def negafibonacci(num):
 
 fibo_list = []
 
-number = input("Enter number: ")
-if int(number) > 0:
-    i = int(number) * (-1)
-    k = int(number)
+NUMBER = input("Enter number: ")
+if int(NUMBER) > 0:
+    i = int(NUMBER) * (-1)
+    k = int(NUMBER)
 else:
-    i = int(number)
-    k = int(number) * (-1)
+    i = int(NUMBER)
+    k = int(NUMBER) * (-1)
 
 j = 0
 

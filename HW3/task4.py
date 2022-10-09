@@ -11,6 +11,6 @@ def dec_to_bin(num):
         num = num // 2
     return result[::-1]
 
-number = int(input('Enter number: '))
+NUMBER = int(input('Enter number: '))
 
-print(dec_to_bin(number))
+print(dec_to_bin(NUMBER))

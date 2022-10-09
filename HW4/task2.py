@@ -13,8 +13,8 @@ def dividers_list(num):
        list1.append(num)
    return list1
 
-number = int(input('Enter integer number: '))
-while number < 0:
-    number = int(input('Incorrect input. Enter positive number: '))
+NUMBER = int(input('Enter integer number: '))
+while NUMBER < 0:
+    NUMBER = int(input('Incorrect input. Enter positive number: '))
     
-print(dividers_list(number))
+print(dividers_list(NUMBER))

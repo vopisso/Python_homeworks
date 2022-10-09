@@ -11,5 +11,5 @@ def find_minimal_divider(num):
             if num % i == 0:
                 return f'The minimal divider is {i}'
 
-number = int(input('Enter number: '))
-print(find_minimal_divider(number))
+NUMBER = int(input('Enter number: '))
+print(find_minimal_divider(NUMBER))

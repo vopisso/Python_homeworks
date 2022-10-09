@@ -9,5 +9,5 @@ def get_sum(num):
             sum += i
         return f'The sum is {sum}'
 
-number = int(input('Enter desired number: '))
-print(get_sum(number))
+NUMBER = int(input('Enter desired number: '))
+print(get_sum(NUMBER))

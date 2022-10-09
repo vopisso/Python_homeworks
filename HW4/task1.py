@@ -7,9 +7,9 @@ def calc_pi(num):
         pi += (1/16**k) * (4/(8 * k + 1) - 2/(8 * k +4) - 1/(8 * k + 5) - 1/(8 * k + 6))
     return round(pi, num)
 
-number = int(input('Enter number: '))
+NUMBER = int(input('Enter number: '))
 
-while number < 1 or number > 15:
-    number = int(input('Incorrect input. Enter number from 1 to 15: '))
+while NUMBER < 1 or NUMBER > 15:
+    NUMBER = int(input('Incorrect input. Enter number from 1 to 15: '))
 
-print(calc_pi(number))
+print(calc_pi(NUMBER))

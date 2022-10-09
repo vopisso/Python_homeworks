@@ -2,7 +2,7 @@
 # a0 = 0, a1 = 1, ak = ak-1 + ak-2 (k > 1).
 # Требуется найти N-е число Фибоначчи.
 
-number = int(input('Enter number: '))
+NUMBER = int(input('Enter number: '))
 
 def find_n_fibonacci(num):
     while num < 0:
@@ -20,4 +20,4 @@ def find_n_fibonacci(num):
             fib2 = fib_temp
     return fib_temp
 
-print(find_n_fibonacci(number))
+print(find_n_fibonacci(NUMBER))
