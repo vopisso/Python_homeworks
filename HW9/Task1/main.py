@@ -1,9 +1,10 @@
-from telegram import Bot, Update
+from telegram import Bot
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+
 from controller import *
 
-bot = Bot(token='5717925844:AAE1IjA_6FmDoiy0deyrJVoqRRZzNY3ueGo')
-updater = Updater(token='5717925844:AAE1IjA_6FmDoiy0deyrJVoqRRZzNY3ueGo')
+bot = Bot(token='')
+updater = Updater(token='')
 dispatcher = updater.dispatcher
 
 start_handler = CommandHandler('start', start)
