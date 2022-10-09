@@ -4,8 +4,8 @@ from scripts import check
 from random import choice as ch
 
 
-bot = Bot(token='')
-updater = Updater(token='')
+bot = Bot(token=' ')
+updater = Updater(token=' ')
 dispatcher = updater.dispatcher
 
 data = {6: 4, 7: 4, 8: 4, 9: 4, 10: 4, 'Валет': 4, 'Дама': 4, 'Король': 4,
